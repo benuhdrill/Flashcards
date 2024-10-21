@@ -4,15 +4,12 @@
 //
 //  Created by Ben Gmach on 10/21/24.
 //
-
 import SwiftUI
 
-struct Card: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
-}
-
-#Preview {
-    Card()
+struct Card: Identifiable, Equatable {
+    let id = UUID() // Unique identifier for each card
+    var question: String
+    var answer: String
+    var isFaceUp: Bool = false // Tracks if the card is face-up
+    var isMatched: Bool = false // Tracks if the card has been matched
 }

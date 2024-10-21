@@ -7,22 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B5D0342A2CBEE1F300AEC0EC /* FlashcardsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D034292CBEE1F300AEC0EC /* FlashcardsApp.swift */; };
 		B5D0342C2CBEE1F300AEC0EC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D0342B2CBEE1F300AEC0EC /* ContentView.swift */; };
 		B5D0342E2CBEE1F500AEC0EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5D0342D2CBEE1F500AEC0EC /* Assets.xcassets */; };
 		B5D034312CBEE1F500AEC0EC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5D034302CBEE1F500AEC0EC /* Preview Assets.xcassets */; };
 		B5D034382CBEE73B00AEC0EC /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D034372CBEE73B00AEC0EC /* CardView.swift */; };
-		B5D0343A2CBEFED800AEC0EC /* CreateFlashcardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D034392CBEFED800AEC0EC /* CreateFlashcardView.swift */; };
+		B5D0343C2CC6CB0400AEC0EC /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D0343B2CC6CB0400AEC0EC /* Card.swift */; };
+		B5D0343E2CC6D70C00AEC0EC /* FlashCardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D0343D2CC6D70C00AEC0EC /* FlashCardApp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B5D034262CBEE1F300AEC0EC /* Flashcards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flashcards.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B5D034292CBEE1F300AEC0EC /* FlashcardsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardsApp.swift; sourceTree = "<group>"; };
+		B5D034262CBEE1F300AEC0EC /* MemoryGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemoryGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5D0342B2CBEE1F300AEC0EC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B5D0342D2CBEE1F500AEC0EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5D034302CBEE1F500AEC0EC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B5D034372CBEE73B00AEC0EC /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
-		B5D034392CBEFED800AEC0EC /* CreateFlashcardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateFlashcardView.swift; sourceTree = "<group>"; };
+		B5D0343B2CC6CB0400AEC0EC /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		B5D0343D2CC6D70C00AEC0EC /* FlashCardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashCardApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,7 +47,7 @@
 		B5D034272CBEE1F300AEC0EC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B5D034262CBEE1F300AEC0EC /* Flashcards.app */,
+				B5D034262CBEE1F300AEC0EC /* MemoryGame.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -55,11 +55,11 @@
 		B5D034282CBEE1F300AEC0EC /* Flashcards */ = {
 			isa = PBXGroup;
 			children = (
-				B5D034292CBEE1F300AEC0EC /* FlashcardsApp.swift */,
+				B5D0343B2CC6CB0400AEC0EC /* Card.swift */,
 				B5D0342B2CBEE1F300AEC0EC /* ContentView.swift */,
-				B5D034392CBEFED800AEC0EC /* CreateFlashcardView.swift */,
 				B5D034372CBEE73B00AEC0EC /* CardView.swift */,
 				B5D0342D2CBEE1F500AEC0EC /* Assets.xcassets */,
+				B5D0343D2CC6D70C00AEC0EC /* FlashCardApp.swift */,
 				B5D0342F2CBEE1F500AEC0EC /* Preview Content */,
 			);
 			path = Flashcards;
@@ -76,9 +76,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B5D034252CBEE1F300AEC0EC /* Flashcards */ = {
+		B5D034252CBEE1F300AEC0EC /* MemoryGame */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B5D034342CBEE1F500AEC0EC /* Build configuration list for PBXNativeTarget "Flashcards" */;
+			buildConfigurationList = B5D034342CBEE1F500AEC0EC /* Build configuration list for PBXNativeTarget "MemoryGame" */;
 			buildPhases = (
 				B5D034222CBEE1F300AEC0EC /* Sources */,
 				B5D034232CBEE1F300AEC0EC /* Frameworks */,
@@ -88,9 +88,9 @@
 			);
 			dependencies = (
 			);
-			name = Flashcards;
+			name = MemoryGame;
 			productName = Flashcards;
-			productReference = B5D034262CBEE1F300AEC0EC /* Flashcards.app */;
+			productReference = B5D034262CBEE1F300AEC0EC /* MemoryGame.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -108,7 +108,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B5D034212CBEE1F300AEC0EC /* Build configuration list for PBXProject "Flashcards" */;
+			buildConfigurationList = B5D034212CBEE1F300AEC0EC /* Build configuration list for PBXProject "MemoryGame" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -121,7 +121,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B5D034252CBEE1F300AEC0EC /* Flashcards */,
+				B5D034252CBEE1F300AEC0EC /* MemoryGame */,
 			);
 		};
 /* End PBXProject section */
@@ -145,8 +145,8 @@
 			files = (
 				B5D0342C2CBEE1F300AEC0EC /* ContentView.swift in Sources */,
 				B5D034382CBEE73B00AEC0EC /* CardView.swift in Sources */,
-				B5D0342A2CBEE1F300AEC0EC /* FlashcardsApp.swift in Sources */,
-				B5D0343A2CBEFED800AEC0EC /* CreateFlashcardView.swift in Sources */,
+				B5D0343E2CC6D70C00AEC0EC /* FlashCardApp.swift in Sources */,
+				B5D0343C2CC6CB0400AEC0EC /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,7 +333,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B5D034212CBEE1F300AEC0EC /* Build configuration list for PBXProject "Flashcards" */ = {
+		B5D034212CBEE1F300AEC0EC /* Build configuration list for PBXProject "MemoryGame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B5D034322CBEE1F500AEC0EC /* Debug */,
@@ -342,7 +342,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B5D034342CBEE1F500AEC0EC /* Build configuration list for PBXNativeTarget "Flashcards" */ = {
+		B5D034342CBEE1F500AEC0EC /* Build configuration list for PBXNativeTarget "MemoryGame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B5D034352CBEE1F500AEC0EC /* Debug */,
