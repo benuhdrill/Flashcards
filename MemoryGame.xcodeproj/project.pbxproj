@@ -11,6 +11,8 @@
 		B5D0342C2CBEE1F300AEC0EC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D0342B2CBEE1F300AEC0EC /* ContentView.swift */; };
 		B5D0342E2CBEE1F500AEC0EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5D0342D2CBEE1F500AEC0EC /* Assets.xcassets */; };
 		B5D034312CBEE1F500AEC0EC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5D034302CBEE1F500AEC0EC /* Preview Assets.xcassets */; };
+		B5D034382CBEE73B00AEC0EC /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D034372CBEE73B00AEC0EC /* CardView.swift */; };
+		B5D0343A2CBEFED800AEC0EC /* CreateFlashcardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D034392CBEFED800AEC0EC /* CreateFlashcardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		B5D0342B2CBEE1F300AEC0EC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B5D0342D2CBEE1F500AEC0EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5D034302CBEE1F500AEC0EC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B5D034372CBEE73B00AEC0EC /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		B5D034392CBEFED800AEC0EC /* CreateFlashcardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateFlashcardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				B5D034292CBEE1F300AEC0EC /* FlashcardsApp.swift */,
 				B5D0342B2CBEE1F300AEC0EC /* ContentView.swift */,
+				B5D034392CBEFED800AEC0EC /* CreateFlashcardView.swift */,
+				B5D034372CBEE73B00AEC0EC /* CardView.swift */,
 				B5D0342D2CBEE1F500AEC0EC /* Assets.xcassets */,
 				B5D0342F2CBEE1F500AEC0EC /* Preview Content */,
 			);
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5D0342C2CBEE1F300AEC0EC /* ContentView.swift in Sources */,
+				B5D034382CBEE73B00AEC0EC /* CardView.swift in Sources */,
 				B5D0342A2CBEE1F300AEC0EC /* FlashcardsApp.swift in Sources */,
+				B5D0343A2CBEFED800AEC0EC /* CreateFlashcardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

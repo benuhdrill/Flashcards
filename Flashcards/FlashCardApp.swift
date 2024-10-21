@@ -1,8 +1,8 @@
 //
-//  FlashcardsApp.swift
-//  Flashcards
+//  FlashCardsApp.swift
+//  MemoryGame
 //
-//  Created by Ben Gmach on 10/15/24.
+//  Created by Ben Gmach on 10/21/24.
 //
 
 import SwiftUI
